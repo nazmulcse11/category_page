@@ -169,9 +169,125 @@
 	padding:10px;
 }
 
+
+/*CSS for review page*/
+
+/*Coinbase Review*/
+.coinbase-review{
+	 background: #00B5AD; color:#fff; border-radius: 3px;
+}
+.coinbase-review .pa-heading{
+	font-size:40px; margin-top:20px;
+}
+.coinbase-review .meta-description{
+	margin-top:0px; font-size:20px;
+}
+.coinbase-review .btn {
+	background-color: rgb(217, 83, 79); color:#fff; border:1px solid #D9534F; border-radius:3px;margin:20px 0px;
+}
+.coinbase-review .btn:hover {
+	background-color: rgb(217, 83, 79); color:#fff; border:1px solid #D9534F;
+}
+.coinbase-review a,h2{
+	text-decoration:none;color:#000;
+}
+.coinbase-review img{
+	width:100px;height:100px;
+}
+
+/*Post Details*/
+.post-details{ 
+	background-color: #fff;
+	margin-top:150px;
+	padding:10px;
+   }
+.post-details .coin-logo img{
+	margin-top:22px;
+	width:50px;
+}   
+.post-details .our-score{
+	background: #EFEFEF;
+	padding:20px;
+	text-align:center;
+}
+.post-details .our-score .fa{
+	color:#D9534F;
+}
+.post-details .left-sidebar{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.post-details .right-sidebar{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.post-details .right-sidebar h2{
+	padding:2px 5px;
+}
+.post-details .right-sidebar h5{
+	padding:2px 5px;
+}
+.post-details .right-sidebar .things-we-like .fa{
+	color:#00B5AD;
+}
+
+.post-details .right-sidebar h2{
+	padding:2px 5px;
+}
+.post-details .right-sidebar .things-not-like{
+	margin-top:20px;
+  }
+.post-details .right-sidebar .things-not-like .fa{
+	color:#D9534F;
+}
+
+.post-details .right-sidebar .btn {
+	background-color: rgb(217, 83, 79); color:#fff; border:1px solid #D9534F; border-radius:3px;margin:20px 0px;
+}
+.post-details .right-sidebar .btn:hover {
+	background-color: rgb(217, 83, 79); color:#fff; border:1px solid #D9534F;
+}
+.post-details .mar-top{
+	margin-top:50px;
+}
+.post-details .leave-review p{
+	background:#EFEFEF; border:1px solid #00B5AD; margin-top:10px;
+}
+.post-details .left-sidebar .review-btn .btn{
+	background: #00B5AD; color:#fff; border-radius:3px;
+}
+
+@media (max-width: 767px) {
+	/*category page*/
+	/*..................*/
+
+	/*review page*/
+	.post-details .left-sidebar .coin-logo img{
+       margin-top: 0px;
+    }
+	.post-details .our-score{
+	  margin-top:40px;
+    }
+   .post-details .right-sidebar{
+   	margin-top:50px;
+	text-align:center;
+  }
+  .post-details .right-sidebar .things-not-like{
+	margin-top:50px;
+  }
+  .post-details .left-sidebar .review-btn{
+	text-align:center;
+}
+  
+}
+
 @media (min-width: 768px) {
+  /*category page*/
   .modal-xl {
     width: 90%;
    max-width:1200px;
   }
+
+  /*review page*/
+  
 }
